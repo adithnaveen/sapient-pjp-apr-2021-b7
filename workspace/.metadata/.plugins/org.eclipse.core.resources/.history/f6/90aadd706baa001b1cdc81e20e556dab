@@ -1,0 +1,5 @@
+package com.sapient.interfaces;
+
+public interface IMessageDAO {
+
+}

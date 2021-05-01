@@ -1,0 +1,32 @@
+package com.sapient.dao;
+
+import java.sql.PreparedStatement;
+import java.util.List;
+
+import com.sapient.entity.Message;
+import com.sapient.interfaces.IMessageDAO;
+import com.sapient.utils.GetConnection;
+
+public class MessageDAO  implements IMessageDAO{
+
+	public boolean saveMessage(Message message) {
+		String sql ="insert into message values(?,?,?,?,?)";
+		
+		
+		PreparedStatement ps = GetConnection.getMySQLConn().prepareStatement(sql);
+		
+		return false;
+	}
+
+	public Message getMessage(int mId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<Message> getAllMessages() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+}

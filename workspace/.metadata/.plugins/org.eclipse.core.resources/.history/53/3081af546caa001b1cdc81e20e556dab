@@ -1,0 +1,22 @@
+package com.sapient.utils;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class GetConnection {
+
+	public Connection getMySQLConn() {
+		String driver = "com.mysql.cj.jdbc.Driver"; 
+		String url ="jdbc:mysql://localhost/pjpb7"; 
+		String name ="root";
+		String password ="kanchan@1";
+
+		Class.forName(driver); 
+		Connection conn = DriverManager.getConnection(url, name, password); 
+		
+		
+	}
+	
+//	public Connection getOracleConn() {}
+//	public Connection getDB2() {}
+}

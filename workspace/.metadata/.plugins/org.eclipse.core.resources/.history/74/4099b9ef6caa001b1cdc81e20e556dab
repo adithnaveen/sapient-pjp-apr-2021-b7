@@ -1,0 +1,9 @@
+package com.sapient.exceptions;
+
+public class NameTooSmallException {
+	private String message;
+
+	public NameTooSmallException() {
+		// TODO Auto-generated constructor stub
+	}
+}

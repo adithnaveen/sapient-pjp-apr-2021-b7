@@ -1,0 +1,5 @@
+package com.sapient.dao;
+
+public class MessageDAO {
+
+}
