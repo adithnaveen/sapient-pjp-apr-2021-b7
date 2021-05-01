@@ -15,7 +15,14 @@ public class App {
 		
 		IMessageDAO dao = new MessageDAO(); 
 		
-		System.out.println(dao.saveMessage(m) ? "Inserted":"Not Inserted");  
+//		System.out.println(dao.saveMessage(m) ? "Inserted":"Not Inserted");
+		
+		
+//		System.out.println(dao.getMessage(101));
+		
+		for(Message mm : dao.getAllMessages()) {
+			System.out.println(mm);
+		}
 		
 	}
 }

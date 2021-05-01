@@ -30,10 +30,35 @@ public class MessageTest {
 	
 	@Test
 	public void messagePostTest() {
-
-		
 		// expecting vs actuals 
 		assertEquals(true, dao.saveMessage(m));
 	}
 
+	
+	
+	@Test
+	public void messageGetAllTest() {
+		assertEquals(3, dao.getAllMessages().size());
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
