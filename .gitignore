@@ -1,12 +1,6 @@
 workspace/.metadata
 *.class
 *.zip
-*.zip
-*.zip
-*.zip
-*.zip
-*.zip
-*.zip
-*.zip
 
+/**/.metadata
 /**/workspace/.metadata
