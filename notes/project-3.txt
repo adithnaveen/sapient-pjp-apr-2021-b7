@@ -1,0 +1,155 @@
+repo link 
+
+POD1 
+	https://github.com/YOG3SHWAR/ps-online-chat
+	
+	Profile 
+	
+	import java.sql.Date; -date 
+	import java.util.Date;- date + time 
+	
+	
+	
+	
+	/**
+	* @author shubham 
+	*
+	*/
+	
+	
+	
+	group_id 
+	
+	
+	
+variable names are in camel case 
+	groupId
+	empId
+	chatId
+
+methods its in camel case 
+	getEmployeeId(); 
+	getChatId(); 
+	
+class is in pascal case 
+first char of every word is in upper case 
+
+constants UPPERCASE 
+package names - in lower case 
+	com.sapient.project.something 
+	
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+POD2
+	https://github.com/imshubh7/webchat2
+POD3
+	https://github.com/rajput1813/psgroupchat
+
+
+
+USA 
+
+
+class Name {
+	private String fName; 
+	prviate String lName; 
+	private String mName; 
+}
+
+class Employee {
+	private int empId;
+	private Name name; 
+	private double salary; 
+}
+
+
+class Customer {
+	private int custId; 
+	private Name name; 
+	private double income 
+}
+
+class Trainer {
+	private int tId; 
+	private Name name; 
+}
+
+
+
+target/classes/META-INF
+
+
+JAX-RS - REST - JSON  - 99.99% 
+JAX-WS - Web Service - xml 
+
+
+
+eclipse jersey 
+resteasy 
+restlet 
+spring 
+	Spring boot 
+	
+
+start.spring.io	
+
+etc 
+
+
+GSON
+Jackson 
+
+
+
+
+
+POD4
+	https://github.com/rpeb/PJP-chat-application
+
+
+
+
+
+
+
+com.sapient.chat 
+	App 
+com.sapient.chat.interfaces 
+com.sapient.chat.entity
+com.sapient.chat.dao
+com.sapient.chat.exception
+com.sapient.chat.utilities 
+
+
+
+
+
+GET - read 
+POST - create 
+PUT - update 
+DELET- delete 
+
+
+
+
+
+
+
+
+
+
