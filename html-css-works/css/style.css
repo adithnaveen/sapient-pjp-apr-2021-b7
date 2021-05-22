@@ -1,0 +1,85 @@
+
+    /* target for tablet*/
+
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        color: blueviolet;
+    }
+
+    body {
+        margin: 0px 10px;
+    }
+
+    .smallscreen {
+        display: block;
+    }
+
+    .bigscreen {
+        display: none;
+    }
+
+    img {
+        width: 220px;
+        height: 100px;
+    }
+
+    @media screen and (min-width:769px) and (max-width:1200px) {
+        /*for desktop*/
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 900;
+            color: blue;
+        }
+
+        body {
+            margin: 0px 30px;
+        }
+
+        .smallscreen {
+            display: none;
+        }
+
+        .bigscreen {
+            display: block;
+        }
+
+        img {
+            width: 300px;
+            height: 150px;
+        }
+    }
+
+    header {
+        text-align: center;
+    }
+
+
+.container {
+    width: 40%;
+    position: absolute;
+    padding: 20px;
+    margin: 30px;
+    border: 1px solid #0c8195;
+    text-align: justify;
+}
+
+ .content {
+    padding: 7px;
+    min-height: 45px;
+    border: 1px solid gray;
+    margin: 5px 0;
+}
+
+label {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: chocolate;
+}
+label:hover {
+    font-size: 1.2em;
+}
+
+.container .content:nth-child(odd) {
+    background-color: lightgreen;
+}
